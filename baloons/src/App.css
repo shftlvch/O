@@ -1,0 +1,29 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%
+}
+
+.App.App_wow {
+    animation: bgColor 15s infinite linear;
+    background: linear-gradient(122deg, rgba(255,0,0,1) 9%, rgba(255,124,0,1) 21%, rgba(255,255,0,1) 34%, rgba(0,128,0,1) 49%, rgba(0,255,255,1) 64%, rgba(0,0,255,1) 76%, rgba(238,130,238,1) 95%);
+    background-size: 1400% 1400%;
+}
+
+@keyframes bgColor {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+
+.Btn {
+    border: 1px;
+    font-size: 10em;
+    border-radius: 100%;
+    height: 50vh;
+    width: 50vh;
+    outline: none;
+}
+
